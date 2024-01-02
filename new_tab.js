@@ -107,5 +107,5 @@ function populateLinkGrid() {
     linkContainer.appendChild(container);
   });
 }
-// brave://favicon/size/128@1x/https://news.ycombinator.com/
+
 init();
