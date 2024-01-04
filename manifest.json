@@ -17,14 +17,14 @@
     "next-tab": {
       "suggested_key": {
         "default": "Ctrl+Shift+L",
-        "mac": "MacCtrl+Shift+L"
+        "mac": "Command+Shift+L"
       },
       "description": "Move to the next tab"
     },
     "previous-tab": {
       "suggested_key": {
         "default": "Ctrl+Shift+H",
-        "mac": "MacCtrl+Shift+L"
+        "mac": "Command+Shift+H"
       },
       "description": "Move to the previous tab"
     }
