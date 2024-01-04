@@ -16,13 +16,15 @@
   "commands": {
     "next-tab": {
       "suggested_key": {
-        "default": "Ctrl+Shift+L"
+        "default": "Ctrl+Shift+L",
+        "mac": "MacCtrl+Shift+L"
       },
       "description": "Move to the next tab"
     },
     "previous-tab": {
       "suggested_key": {
-        "default": "Ctrl+Shift+H"
+        "default": "Ctrl+Shift+H",
+        "mac": "MacCtrl+Shift+L"
       },
       "description": "Move to the previous tab"
     }

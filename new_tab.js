@@ -43,37 +43,25 @@ function populateLinkGrid() {
     {
       name: 'Mail',
       category: 'mail',
-      url: 'https://mail.proton.me/u/0/inbox',
+      url: 'https://outlook.office.com/mail/inbox/id/AAQkAGRlOTE0MjNlLTY4ODAtNDM3OS1iNmVkLTkxZWZlZjk2ODRjMwAQACriAWRxIAhAjocWKg3j16g%3D',
       icon: './assets/links/mail.png',
     },
     {
       name: 'Calendar',
       category: 'mail',
-      url: 'https://calendar.proton.me/u/0/',
+      url: 'https://outlook.office.com/calendar/view/workweek',
       icon: './assets/links/calendar.png',
     },
     {
-      name: 'YouTube',
-      category: 'entertainment',
-      url: 'http://www.youtube.com/feed/subscriptions',
-      icon: './assets/links/youtube.png',
-    },
-    {
-      name: 'Twitch',
-      category: 'entertainment',
-      url: 'https://www.twitch.tv/directory/following',
-      icon: './assets/links/twitch.png',
-    },
-    {
-      name: 'tpolito',
+      name: 'EF repos',
       category: 'development',
-      url: 'https://github.com/tpolito',
+      url: 'https://github.com/orgs/eftours/repositories',
       icon: './assets/links/github.png',
     },
     {
-      name: 'StudioTwey',
+      name: 'wojo-web',
       category: 'development',
-      url: 'https://github.com/StudioTwey',
+      url: 'https://github.com/eftours/wojo-web',
       icon: './assets/links/github.png',
     },
     {
