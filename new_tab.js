@@ -44,7 +44,7 @@ function populateLinkGrid() {
       name: 'Mail',
       category: 'mail',
       url: 'https://outlook.office.com/mail/inbox/id/AAQkAGRlOTE0MjNlLTY4ODAtNDM3OS1iNmVkLTkxZWZlZjk2ODRjMwAQACriAWRxIAhAjocWKg3j16g%3D',
-      icon: './assets/links/mail.png',
+      icon: './assets/links/mail.jpeg',
     },
     {
       name: 'Calendar',
@@ -63,6 +63,12 @@ function populateLinkGrid() {
       category: 'development',
       url: 'https://github.com/eftours/wojo-web',
       icon: './assets/links/github.png',
+    },
+    {
+      name: 'jira',
+      category: 'development',
+      url: 'https://ef-wojo.atlassian.net/jira/software/projects/WWB/boards/196',
+      icon: './assets/links/jira.png',
     },
     {
       name: 'Weather',
@@ -86,7 +92,6 @@ function populateLinkGrid() {
     container.href = link.url;
     container.classList.add('link');
     const linkImg = document.createElement('img');
-    const { hostname } = new URL(link.url);
     linkImg.src = link.icon;
     container.appendChild(linkImg);
     const linkName = document.createElement('span');
