@@ -77,16 +77,16 @@ function populateLinkGrid() {
       icon: './assets/links/ultimatebreak.png',
     },
     {
-      name: 'GAT',
-      category: 'development',
-      url: 'https://www.goaheadtours.com/',
-      icon: './assets/links/goahead.png',
-    },
-    {
       name: 'UB - QA',
       category: 'development',
       url: 'https://tours-q.efultimatebreak.com/',
       icon: './assets/links/ultimatebreak.png',
+    },
+    {
+      name: 'GAT',
+      category: 'development',
+      url: 'https://www.goaheadtours.com/',
+      icon: './assets/links/goahead.png',
     },
     {
       name: 'GAT - QA',
