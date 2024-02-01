@@ -65,6 +65,18 @@ function populateLinkGrid() {
       icon: './assets/links/github.png',
     },
     {
+      name: 'ub-web',
+      category: 'development',
+      url: 'https://github.com/eftours/ub-web',
+      icon: './assets/links/github.png',
+    },
+    {
+      name: 'wojo rfc',
+      category: 'development',
+      url: 'https://github.com/eftours/wj-rfcs/discussions',
+      icon: './assets/links/github.png',
+    },
+    {
       name: 'jira',
       category: 'development',
       url: 'https://ef-wojo.atlassian.net/jira/software/projects/WWB/boards/196',
