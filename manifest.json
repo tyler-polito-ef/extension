@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Opinionated Extension",
+  "name": "QOL",
   "description": "For personal use, if your not me, you probably don't want this.",
   "version": "0.5",
   "permissions": ["tabs", "activeTab"],

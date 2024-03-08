@@ -65,6 +65,12 @@ function populateLinkGrid() {
       icon: './assets/links/github.png',
     },
     {
+      name: 'wojo-api',
+      category: 'development',
+      url: 'https://github.com/eftours/wojo-api',
+      icon: './assets/links/github.png',
+    },
+    {
       name: 'ub-web',
       category: 'development',
       url: 'https://github.com/eftours/ub-web',
@@ -113,15 +119,6 @@ function populateLinkGrid() {
       icon: './assets/links/weather.png',
     },
   ];
-
-  // Chunk the links into categories
-  // const categories = {};
-  // links.forEach((link) => {
-  //   if (!categories[link.category]) {
-  //     categories[link.category] = [];
-  //   }
-  //   categories[link.category].push(link);
-  // });
 
   links.forEach((link) => {
     const container = document.createElement('a');
