@@ -1,3 +1,6 @@
+// ===================
+// TAB MOVING
+// ===================
 function moveToNextTab() {
   chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
     let currentTab = tabs[0];

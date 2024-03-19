@@ -65,6 +65,12 @@ function populateLinkGrid() {
       icon: './assets/links/github.png',
     },
     {
+      name: "PR's",
+      category: 'development',
+      url: 'https://github.com/eftours/wojo-web/pulls',
+      icon: './assets/links/pull-request.png',
+    },
+    {
       name: 'wojo-api',
       category: 'development',
       url: 'https://github.com/eftours/wojo-api',
