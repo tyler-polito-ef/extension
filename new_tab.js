@@ -67,7 +67,7 @@ function populateLinkGrid() {
     {
       name: "PR's",
       category: 'development',
-      url: 'https://github.com/eftours/wojo-web/pulls',
+      url: 'https://github.com/eftours/wojo-web/pulls?q=is%3Apr+is%3Aopen+-reviewed-by%3Atyler-polito-ef',
       icon: './assets/links/pull-request.png',
     },
     {
@@ -94,28 +94,40 @@ function populateLinkGrid() {
       url: 'https://ef-wojo.atlassian.net/jira/software/projects/WWB/boards/196',
       icon: './assets/links/jira.png',
     },
+    // {
+    //   name: 'UB',
+    //   category: 'development',
+    //   url: 'https://www.efultimatebreak.com/',
+    //   icon: './assets/links/ultimatebreak.png',
+    // },
+    // {
+    //   name: 'UB - QA',
+    //   category: 'development',
+    //   url: 'https://tours-q.efultimatebreak.com/',
+    //   icon: './assets/links/ultimatebreak.png',
+    // },
+    // {
+    //   name: 'GAT',
+    //   category: 'development',
+    //   url: 'https://www.goaheadtours.com/',
+    //   icon: './assets/links/goahead.png',
+    // },
+    // {
+    //   name: 'GAT - QA',
+    //   category: 'development',
+    //   url: 'https://www.gat-qa.com/',
+    //   icon: './assets/links/goahead.png',
+    // },
     {
       name: 'UB',
       category: 'development',
-      url: 'https://www.efultimatebreak.com/',
-      icon: './assets/links/ultimatebreak.png',
-    },
-    {
-      name: 'UB - QA',
-      category: 'development',
-      url: 'https://tours-q.efultimatebreak.com/',
+      url: 'https://ub.wojo.tours',
       icon: './assets/links/ultimatebreak.png',
     },
     {
       name: 'GAT',
       category: 'development',
-      url: 'https://www.goaheadtours.com/',
-      icon: './assets/links/goahead.png',
-    },
-    {
-      name: 'GAT - QA',
-      category: 'development',
-      url: 'https://www.gat-qa.com/',
+      url: 'https://gat.wojo.tours',
       icon: './assets/links/goahead.png',
     },
     {
@@ -124,15 +136,28 @@ function populateLinkGrid() {
       url: 'https://merrysky.net/forecast/30.2423000,-97.7672000',
       icon: './assets/links/weather.png',
     },
+    {
+      name: 'Local account',
+      category: 'development',
+      url: 'http://localhost:3000/myaccount',
+      icon: null,
+    },
   ];
 
   links.forEach((link) => {
     const container = document.createElement('a');
     container.href = link.url;
     container.classList.add('link');
-    const linkImg = document.createElement('img');
-    linkImg.src = link.icon;
-    container.appendChild(linkImg);
+    if (link.icon !== null) {
+      const linkImg = document.createElement('img');
+      linkImg.src = link.icon;
+      container.appendChild(linkImg);
+    } else {
+      const linkIcon = document.createElement('span');
+      linkIcon.classList.add('linkIcon');
+      linkIcon.textContent = '🔗';
+      container.appendChild(linkIcon);
+    }
     const linkName = document.createElement('span');
     linkName.textContent = link.name;
     container.appendChild(linkName);
