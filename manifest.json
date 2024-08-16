@@ -30,6 +30,20 @@
         "mac": "Command+Shift+H"
       },
       "description": "Move to the previous tab"
+    },
+    "new-tab-to-the-right": {
+      "suggested_key": {
+        "default": "Alt+Shift+T",
+        "mac": "Alt+Shift+T"
+      },
+      "description": "Open a new tab to the right of the current tab"
+    },
+    "chrome-new-tab": {
+      "suggested_key": {
+        "default": "Alt+T",
+        "mac": "Alt+T"
+      },
+      "description": "Navigate to the new tab page"
     }
   }
 }
