@@ -100,6 +100,18 @@ function populateLinkGrid() {
       url: "https://app.storyblok.com/#/me/spaces",
       icon: "./assets/links/storyblok.ico",
     },
+    {
+      name: "Claude",
+      category: "development",
+      url: "https://claude.ai/new",
+      icon: "./assets/links/claude.svg",
+    },
+    {
+      name: "AWS",
+      category: "development",
+      url: "https://eftours.awsapps.com/",
+      icon: "./assets/links/aws.svg",
+    },
   ];
 
   links.forEach((link) => {
