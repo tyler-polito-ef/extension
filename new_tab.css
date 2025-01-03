@@ -57,6 +57,7 @@ body {
   text-decoration: none;
   color: white;
   font-size: 12px;
+  position: relative;
 
   & img {
     height: 50px;
@@ -82,3 +83,13 @@ body {
   font-size: 26px;
 }
 
+.linkHotkey {
+  position: absolute;
+  top: -12px;
+  right: -4px;
+  background-color: red;
+  padding: 2px;
+  border-radius: 100%;
+  width: 16px;
+  height: 16px;
+}
