@@ -87,9 +87,11 @@ body {
   position: absolute;
   top: -12px;
   right: -4px;
-  background-color: red;
+  background-color: coral;
   padding: 2px;
   border-radius: 100%;
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
 }

@@ -3,7 +3,7 @@
   "name": "QOL",
   "description": "For personal use, if your not me, you probably don't want this.",
   "version": "0.5",
-  "permissions": ["tabs", "activeTab"],
+  "permissions": ["tabs", "activeTab", "management"],
   "background": {
     "service_worker": "background.js"
   },
