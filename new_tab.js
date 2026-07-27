@@ -1,5 +1,21 @@
-import { links } from "./links.js";
+import { links, findDuplicateHotkeys } from "./links.js";
+
+function warnDuplicateHotkeys() {
+  const duplicates = findDuplicateHotkeys(links);
+  if (duplicates.length === 0) return;
+
+  const details = duplicates
+    .map(
+      ({ hotkey, names }) =>
+        `"${hotkey}" is assigned to: ${names.join(", ")}`
+    )
+    .join("\n");
+
+  alert(`Duplicate link hotkeys detected:\n\n${details}`);
+}
+
 function init() {
+  warnDuplicateHotkeys();
   setDateTime();
   setupHotkeys();
   populateLinkGrid();
