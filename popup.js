@@ -4,7 +4,7 @@ function openChromenewTab() {
 document.getElementById("new-tab").addEventListener("click", openChromenewTab);
 
 // ===================
-// GITHUB.DEV FEATURE
+// LINEAR.REVIEW FEATURE
 // ===================
 function isGitHubPullRequest(url) {
   if (!url) return false;
@@ -32,8 +32,8 @@ function convertToGithubDev(url) {
     const repo = pathParts[1];
     const pullNumber = pathParts[3];
     
-    // Build github.dev URL: github.dev/{owner}/{repo}/pull/{number}
-    return `https://github.dev/${owner}/${repo}/pull/${pullNumber}`;
+    // Build linear.review URL: linear.review/{owner}/{repo}/pull/{number}
+    return `https://linear.review/${owner}/${repo}/pull/${pullNumber}`;
   } catch (e) {
     return null;
   }
